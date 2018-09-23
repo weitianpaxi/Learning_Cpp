@@ -1,4 +1,4 @@
-//test_028.cpp--Ó›ä›PizeĞÅÏ¢£¬µ«Ê¹ÓÃnewí„Ó‘B·ÖÅäÄÚ´æ£¬¾ßówÒªÇóÒŠ•øP124µÚÆßî}ÃèÊö¡£
+//test_028.cpp--è¨˜éŒ„Pizeä¿¡æ¯ï¼Œä½†ä½¿ç”¨newä¾†å‹•æ…‹åˆ†é…å†…å­˜ï¼Œå…·é«”è¦æ±‚è¦‹æ›¸P124ç¬¬ä¸ƒé¡Œæè¿°ã€‚
 
 #include <iostream>
 #include <string>
@@ -22,6 +22,6 @@ int main()
 	    <<"The Pize's  company   is: "<<(* p_Pize).brand<<"\n"
 		<<"The Pize's  diameter  is: "<<p_Pize->diameter<<"\n"
 		<<"The Pize's  weight    is: "<<p_Pize->weight<<endl;
-	delete p_aPize;
+	delete p_Pize;
 	return 0; 
 }
