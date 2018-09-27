@@ -1,8 +1,8 @@
-//test_032.cpp--Ê¹ÓÃarrayŒ¦ÏóºÍlong double£¨¶ø²»ÊÇlong long£©ÖØĞÂ¾Œ‘³ÌĞòÇå†Î5.4£¬²¢Ó‹Ëã100!¡£
+//test_032.cpp--ä½¿ç”¨arrayå°è±¡å’Œlong doubleï¼ˆè€Œä¸æ˜¯long longï¼‰é‡æ–°ç·¨å¯«ç¨‹åºæ¸…å–®5.4ï¼Œå¹¶è¨ˆç®—100!ã€‚
 
 #include <iostream>
 #include <array>
-const int ArSize = 100;
+const int ArSize = 101;
 
 int main()
 {
