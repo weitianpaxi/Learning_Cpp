@@ -16,5 +16,6 @@ int main()
 		cin>>ch;
 	}
 	cout<<"You entered a total of "<<count<<" words."<<endl;
+	delete ch;
 	return 0;
 }
