@@ -1,4 +1,17 @@
-//test_033.cpp--¾Œ‘Ò»‚€ÓÃ‘ôİ”Èë”µ×ÖµÄ³ÌĞò£¬Ã¿´Îİ”Èëºó¶¼ˆó¸æ®”Ç°İ”Èë”µ×ÖµÄºÍ£¬ƒ}ÓÃ‘ôİ”Èë0•r£¬³ÌĞò½YÊø¡£ 
+//test_033.cpp--ç·¨å¯«ä¸€å€‹ç”¨æˆ¶è¼¸å…¥æ•¸å­—çš„ç¨‹åºï¼Œæ¯æ¬¡è¼¸å…¥åéƒ½å ±å‘Šç•¶å‰è¼¸å…¥æ•¸å­—çš„å’Œï¼Œå„…ç”¨æˆ¶è¼¸å…¥0æ™‚ï¼Œç¨‹åºçµæŸã€‚ 
 
 #include <iostream>
  
+int main()
+{
+	using namespace std;
+	long long n,sum=0;
+	cout<<"Please start input number.\nã€Rember enter '0' to stop summing.ã€‘\n";
+	while(n != 0)
+	{
+		cin>>n;
+		sum += n;
+		cout<<"Your input's sum = "<<sum<<"\n";
+	}
+	return 0;
+}
