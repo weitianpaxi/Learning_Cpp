@@ -1,4 +1,4 @@
-//test_026.cpp--test_025.cppµÄ¸Ä°æ£¬ÔÚtest_025.cppµÄ»ùµAÉÏÂ“‚SÊ¹ÓÃ½Y˜‹”µ½M¡£
+//test_026.cpp--test_025.cppçš„æ”¹ç‰ˆï¼Œåœ¨test_025.cppçš„åŸºç¤ä¸Šè¯ä¿‚ä½¿ç”¨çµæ§‹æ•¸çµ„ã€‚
 
 #include <iostream>
 #include <string>
@@ -12,9 +12,9 @@ int main()
 {
 	using namespace std;
 	CandyBar sanck[3]={
-		{"Zhang Hang",2.24,2333},
-		{"Paxifaer",2.42,1234},
-		{"Weitianpaxi",2.66,6666},
+		{"Huang",2.24,2333},
+		{"Paer",2.42,1234},
+		{"Wei",2.66,6666},
 	};
 	for(int i=0;i<3;++i)
 	{
